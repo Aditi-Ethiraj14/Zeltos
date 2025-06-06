@@ -25,7 +25,7 @@ app.post('/api/ask', async (req, res) => {
     const response = await axios.post(
       'https://api.together.xyz/v1/chat/completions',
       {
-        model: 'meta-llama/Llama-3-70b-chat-hf', // You can try other Together AI models here
+        model: 'meta-llama/Llama-3-70b-chat-hf', 
         messages: [{ role: 'user', content: query }],
         temperature: 0.7
       },
