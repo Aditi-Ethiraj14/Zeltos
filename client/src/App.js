@@ -41,7 +41,7 @@ function App() {
     }
   };
 
-  const askJarvis = async () => {
+  const askZeltos = async () => {
     if (!query.trim()) return;
     try {
       const res = await fetch("http://localhost:5000/api/ask", {
