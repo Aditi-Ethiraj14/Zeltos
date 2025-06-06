@@ -59,7 +59,7 @@ function App() {
 
   return (
     <div className="min-h-screen flex flex-col items-center justify-center bg-gradient-to-r from-blue-900 to-black text-white p-6">
-      <h1 className="text-5xl font-extrabold mb-8">Welcome to JARVIS</h1>
+      <h1 className="text-5xl font-extrabold mb-8">Welcome to ZELTOS</h1>
 
       <div className="w-full max-w-xl">
         <textarea
@@ -85,13 +85,13 @@ function App() {
             onClick={askJarvis}
             className="px-6 py-3 rounded-lg bg-green-600 hover:bg-green-700 font-semibold"
           >
-            Ask Jarvis
+            Ask Zeltos
           </button>
         </div>
 
         {reply && (
           <div className="mt-8 p-4 bg-gray-900 rounded-lg border border-gray-700 text-lg whitespace-pre-wrap">
-            <strong>Jarvis:</strong> {reply}
+            <strong>Zeltos:</strong> {reply}
           </div>
         )}
       </div>
