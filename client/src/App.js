@@ -82,7 +82,7 @@ function App() {
           </button>
 
           <button
-            onClick={askJarvis}
+            onClick={askZeltos}
             className="px-6 py-3 rounded-lg bg-green-600 hover:bg-green-700 font-semibold"
           >
             Ask Zeltos
